@@ -15,7 +15,7 @@ app.set('view engine', 'ejs');
 
 app.use(bodyparser.json());
 app.use(bodyparser.urlencoded({ extende: true }));
-
+//nodejs tmkc
 app.use(session({
     secret: uuidv4(), // '1b9d6bcd-bbfd-4b2-9b5d-ab8dfbbd4bed'
     resave: false,
